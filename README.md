@@ -4,7 +4,7 @@ Facetly Magento
 Install Magento Extension
 -------------
 
-How to install Facetly Module in Prestashop
+How to install Facetly Module in Magento
 
 1. Before Installing Facetly Module, make sure you already have these requirements:
 
