@@ -33,8 +33,8 @@ Now we are going to configure Facetly Module. There are several steps that you a
 
 4. Reindex data in Reindex tab. This configuration is used to save all data in your store to our server, which will be used as your search data. Input size push data to edit how many data will be send to facetly server per process.
 
-5. Reindex data in Reindex tab. This configuration is used to save all data in your store to our server, which will used as your search data. Click Reindex button to start the process. Please note: you should wait until process is complete and not move to other page, otherwise your data reindex will not completed and you must start from the beginning.
+5. Click Reindex button to start the process. Please note: you should wait until process is complete and not move to other page, otherwise your data reindex will not completed and you must start from the beginning.
 
-6. Set search box and facetly result into top left sidebar. Go to modules >> Position then find left column blocks tab and change position Facetly Module into top of sidebar
+6. Facetly search ready
 
 
