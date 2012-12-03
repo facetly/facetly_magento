@@ -1,0 +1,8 @@
+ <config>
+    <modules>
+        <Facetly_Find>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Facetly_Find>
+    </modules>
+</config> 

@@ -1,0 +1,24 @@
+<layout version="0.1.0">
+	<default>
+		<reference name="right">
+            <block type="page/html" name="facetly_form" before="-" template="facetly/find/form_page.phtml"/>
+        </reference>
+	</default> 
+	<find_index_index>
+		<reference name="head">
+            <action method="addJs"><script>facetly/js/jquery-1.8.3.js</script></action>
+            <action method="addJs"><script>facetly/config.js.php</script></action>	
+            <action method="addJs"><script>facetly/js/jquery.autocomplete.js</script></action>
+            <action method="addJs"><script>facetly/js/jquery.address.js</script></action>
+            <action method="addJs"><script>facetly/js/facetly.js</script></action>
+			<action method="addItem"><type>skin_css</type><file>css/facetly/autocomplete.css</file></action>
+			<action method="addItem"><type>skin_css</type><file>css/facetly/facetly.css</file></action>
+        </reference>
+		<reference name="right">
+			<block type="page/html" name="facetly_facet" after="facetly_form" template="facetly/find/facet_page.phtml"/>
+		</reference>
+		<reference name="content">
+			<block type="page/html" name="facetly_result" template="facetly/find/result_page.phtml"/>
+		</reference>
+    </find_index_index>
+</layout>

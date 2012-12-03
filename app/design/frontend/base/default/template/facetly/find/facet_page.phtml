@@ -1,0 +1,21 @@
+<?php
+	if(!empty($facetly_facets)){
+	$facets = '		
+					<p class="empty">
+						<div class="block">
+							<div class="block-title">
+								<strong><span>Filter Results</span></strong>
+							</div>
+							<div class="block-content">
+								<div id="facetly_facet">
+									'.$facetly_facets.'
+								</div>					
+							</div>
+						</div>
+					</p>
+				';
+	}
+	echo $facets;
+
+
+?>
